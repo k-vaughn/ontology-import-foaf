@@ -300,7 +300,7 @@ we don't want the implied rdfs:domain here.
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
   </rdf:Property>
-  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/givenname" vs:term_status="archaic" rdfs:label="Given name" rdfs:comment="The given name of some person.">
+  <rdf:Property rdf:about="http://xmlns.com/foaf/0.1/givenName" vs:term_status="archaic" rdfs:label="Given name" rdfs:comment="The given name of some person.">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
   </rdf:Property>

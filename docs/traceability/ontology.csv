@@ -1,0 +1,74 @@
+id,qname,heading,text,type,diagram,website,updated
+,Organization,Organization,An organization.,Class,http://xmlns.com/foaf/0.1/diagrams/Organization.dot.svg,http://xmlns.com/foaf/0.1/Organization,2026-07-23T18:31:51.924316
+,Agent,Agent,"An agent (eg. person, group, software or physical artifact).",Class,http://xmlns.com/foaf/0.1/diagrams/Agent.dot.svg,http://xmlns.com/foaf/0.1/Agent,2026-07-23T18:31:51.924316
+,OnlineChatAccount,OnlineChatAccount,An online chat account.,Class,http://xmlns.com/foaf/0.1/diagrams/OnlineChatAccount.dot.svg,http://xmlns.com/foaf/0.1/OnlineChatAccount,2026-07-23T18:31:51.924316
+,LabelProperty,LabelProperty,A foaf:LabelProperty is any RDF property with texual values that serve as labels.,Class,http://xmlns.com/foaf/0.1/diagrams/LabelProperty.dot.svg,http://xmlns.com/foaf/0.1/LabelProperty,2026-07-23T18:31:51.924316
+,Project,Project,A project (a collective endeavour of some kind).,Class,http://xmlns.com/foaf/0.1/diagrams/Project.dot.svg,http://xmlns.com/foaf/0.1/Project,2026-07-23T18:31:51.924316
+,Group,Group,A class of Agents.,Class,http://xmlns.com/foaf/0.1/diagrams/Group.dot.svg,http://xmlns.com/foaf/0.1/Group,2026-07-23T18:31:51.924316
+,OnlineGamingAccount,OnlineGamingAccount,An online gaming account.,Class,http://xmlns.com/foaf/0.1/diagrams/OnlineGamingAccount.dot.svg,http://xmlns.com/foaf/0.1/OnlineGamingAccount,2026-07-23T18:31:51.924316
+,Person,Person,A person.,Class,http://xmlns.com/foaf/0.1/diagrams/Person.dot.svg,http://xmlns.com/foaf/0.1/Person,2026-07-23T18:31:51.924316
+,PersonalProfileDocument,PersonalProfileDocument,A personal profile RDF document.,Class,http://xmlns.com/foaf/0.1/diagrams/PersonalProfileDocument.dot.svg,http://xmlns.com/foaf/0.1/PersonalProfileDocument,2026-07-23T18:31:51.924316
+,OnlineAccount,OnlineAccount,An online account.,Class,http://xmlns.com/foaf/0.1/diagrams/OnlineAccount.dot.svg,http://xmlns.com/foaf/0.1/OnlineAccount,2026-07-23T18:31:51.924316
+,Image,Image,An image.,Class,http://xmlns.com/foaf/0.1/diagrams/Image.dot.svg,http://xmlns.com/foaf/0.1/Image,2026-07-23T18:31:51.924316
+,OnlineEcommerceAccount,OnlineEcommerceAccount,An online e-commerce account.,Class,http://xmlns.com/foaf/0.1/diagrams/OnlineEcommerceAccount.dot.svg,http://xmlns.com/foaf/0.1/OnlineEcommerceAccount,2026-07-23T18:31:51.924316
+,Document,Document,A document.,Class,http://xmlns.com/foaf/0.1/diagrams/Document.dot.svg,http://xmlns.com/foaf/0.1/Document,2026-07-23T18:31:51.924316
+,mbox,mbox,"A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.",ObjectProperty,,http://xmlns.com/foaf/0.1/mbox,2026-07-23T18:31:51.924316
+,based_near,based_near,"A location that something is based near, for some broadly human notion of near.",ObjectProperty,,http://xmlns.com/foaf/0.1/based_near,2026-07-23T18:31:51.924316
+,phone,phone,"A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel).",ObjectProperty,,http://xmlns.com/foaf/0.1/phone,2026-07-23T18:31:51.924316
+,homepage,homepage,A homepage for some thing.,ObjectProperty,,http://xmlns.com/foaf/0.1/homepage,2026-07-23T18:31:51.924316
+,weblog,weblog,"A weblog of some thing (whether person, group, company etc.).",ObjectProperty,,http://xmlns.com/foaf/0.1/weblog,2026-07-23T18:31:51.924316
+,openid,openid,An OpenID for an Agent.,ObjectProperty,,http://xmlns.com/foaf/0.1/openid,2026-07-23T18:31:51.924316
+,tipjar,tipjar,"A tipjar document for this agent, describing means for payment and reward.",ObjectProperty,,http://xmlns.com/foaf/0.1/tipjar,2026-07-23T18:31:51.924316
+,made,made,Something that was made by this agent.,ObjectProperty,,http://xmlns.com/foaf/0.1/made,2026-07-23T18:31:51.924316
+,maker,maker,An agent that  made this thing.,ObjectProperty,,http://xmlns.com/foaf/0.1/maker,2026-07-23T18:31:51.924316
+,img,img,"An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage).",ObjectProperty,,http://xmlns.com/foaf/0.1/img,2026-07-23T18:31:51.924316
+,depiction,depiction,A depiction of some thing.,ObjectProperty,,http://xmlns.com/foaf/0.1/depiction,2026-07-23T18:31:51.924316
+,depicts,depicts,A thing depicted in this representation.,ObjectProperty,,http://xmlns.com/foaf/0.1/depicts,2026-07-23T18:31:51.924316
+,thumbnail,thumbnail,A derived thumbnail image.,ObjectProperty,,http://xmlns.com/foaf/0.1/thumbnail,2026-07-23T18:31:51.924316
+,workplaceHomepage,workplaceHomepage,A workplace homepage of some person; the homepage of an organization they work for.,ObjectProperty,,http://xmlns.com/foaf/0.1/workplaceHomepage,2026-07-23T18:31:51.924316
+,workInfoHomepage,workInfoHomepage,A work info homepage of some person; a page about their work for some organization.,ObjectProperty,,http://xmlns.com/foaf/0.1/workInfoHomepage,2026-07-23T18:31:51.924316
+,schoolHomepage,schoolHomepage,A homepage of a school attended by the person.,ObjectProperty,,http://xmlns.com/foaf/0.1/schoolHomepage,2026-07-23T18:31:51.924316
+,knows,knows,A person known by this person (indicating some level of reciprocated interaction between the parties).,ObjectProperty,,http://xmlns.com/foaf/0.1/knows,2026-07-23T18:31:51.924316
+,interest,interest,A page about a topic of interest to this person.,ObjectProperty,,http://xmlns.com/foaf/0.1/interest,2026-07-23T18:31:51.924316
+,topic_interest,topic_interest,A thing of interest to this person.,ObjectProperty,,http://xmlns.com/foaf/0.1/topic_interest,2026-07-23T18:31:51.924316
+,publications,publications,A link to the publications of this person.,ObjectProperty,,http://xmlns.com/foaf/0.1/publications,2026-07-23T18:31:51.924316
+,currentProject,currentProject,A current project this person works on.,ObjectProperty,,http://xmlns.com/foaf/0.1/currentProject,2026-07-23T18:31:51.924316
+,pastProject,pastProject,A project this person has previously worked on.,ObjectProperty,,http://xmlns.com/foaf/0.1/pastProject,2026-07-23T18:31:51.924316
+,fundedBy,fundedBy,An organization funding a project or person.,ObjectProperty,,http://xmlns.com/foaf/0.1/fundedBy,2026-07-23T18:31:51.924316
+,logo,logo,A logo representing some thing.,ObjectProperty,,http://xmlns.com/foaf/0.1/logo,2026-07-23T18:31:51.924316
+,topic,topic,A topic of some page or document.,ObjectProperty,,http://xmlns.com/foaf/0.1/topic,2026-07-23T18:31:51.924316
+,primaryTopic,primaryTopic,The primary topic of some page or document.,ObjectProperty,,http://xmlns.com/foaf/0.1/primaryTopic,2026-07-23T18:31:51.924316
+,focus,focus,The underlying or 'focal' entity associated with some SKOS-described concept.,ObjectProperty,,http://xmlns.com/foaf/0.1/focus,2026-07-23T18:31:51.924316
+,page,page,A page or document about this thing.,ObjectProperty,,http://xmlns.com/foaf/0.1/page,2026-07-23T18:31:51.924316
+,theme,theme,A theme.,ObjectProperty,,http://xmlns.com/foaf/0.1/theme,2026-07-23T18:31:51.924316
+,account,account,Indicates an account held by this agent.,ObjectProperty,,http://xmlns.com/foaf/0.1/account,2026-07-23T18:31:51.924316
+,holdsAccount,holdsAccount,Indicates an account held by this agent.,ObjectProperty,,http://xmlns.com/foaf/0.1/holdsAccount,2026-07-23T18:31:51.924316
+,accountServiceHomepage,accountServiceHomepage,Indicates a homepage of the service provide for this online account.,ObjectProperty,,http://xmlns.com/foaf/0.1/accountServiceHomepage,2026-07-23T18:31:51.924316
+,member,member,Indicates a member of a Group,ObjectProperty,,http://xmlns.com/foaf/0.1/member,2026-07-23T18:31:51.924316
+,mbox_sha1sum,mbox_sha1sum,"The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox.",DatatypeProperty,,http://xmlns.com/foaf/0.1/mbox_sha1sum,2026-07-23T18:31:51.924316
+,gender,gender,The gender of this Agent (typically but not necessarily 'male' or 'female').,DatatypeProperty,,http://xmlns.com/foaf/0.1/gender,2026-07-23T18:31:51.924316
+,geekcode,geekcode,"A textual geekcode for this person, see http://www.geekcode.com/geek.html",DatatypeProperty,,http://xmlns.com/foaf/0.1/geekcode,2026-07-23T18:31:51.924316
+,dnaChecksum,dnaChecksum,A checksum for the DNA of some thing. Joke.,DatatypeProperty,,http://xmlns.com/foaf/0.1/dnaChecksum,2026-07-23T18:31:51.924316
+,sha1,sha1,"A sha1sum hash, in hex.",DatatypeProperty,,http://xmlns.com/foaf/0.1/sha1,2026-07-23T18:31:51.924316
+,title,title,"Title (Mr, Mrs, Ms, Dr. etc)",DatatypeProperty,,http://xmlns.com/foaf/0.1/title,2026-07-23T18:31:51.924316
+,nick,nick,"A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).",DatatypeProperty,,http://xmlns.com/foaf/0.1/nick,2026-07-23T18:31:51.924316
+,jabberID,jabberID,A jabber ID for something.,DatatypeProperty,,http://xmlns.com/foaf/0.1/jabberID,2026-07-23T18:31:51.924316
+,aimChatID,aimChatID,An AIM chat ID,DatatypeProperty,,http://xmlns.com/foaf/0.1/aimChatID,2026-07-23T18:31:51.924316
+,skypeID,skypeID,A Skype ID,DatatypeProperty,,http://xmlns.com/foaf/0.1/skypeID,2026-07-23T18:31:51.924316
+,icqChatID,icqChatID,An ICQ chat ID,DatatypeProperty,,http://xmlns.com/foaf/0.1/icqChatID,2026-07-23T18:31:51.924316
+,yahooChatID,yahooChatID,A Yahoo chat ID,DatatypeProperty,,http://xmlns.com/foaf/0.1/yahooChatID,2026-07-23T18:31:51.924316
+,msnChatID,msnChatID,An MSN chat ID,DatatypeProperty,,http://xmlns.com/foaf/0.1/msnChatID,2026-07-23T18:31:51.924316
+,name,name,A name for some thing.,DatatypeProperty,,http://xmlns.com/foaf/0.1/name,2026-07-23T18:31:51.924316
+,firstName,firstName,The first name of a person.,DatatypeProperty,,http://xmlns.com/foaf/0.1/firstName,2026-07-23T18:31:51.924316
+,lastName,lastName,The last name of a person.,DatatypeProperty,,http://xmlns.com/foaf/0.1/lastName,2026-07-23T18:31:51.924316
+,givenName,givenName,The given name of some person.,DatatypeProperty,,http://xmlns.com/foaf/0.1/givenName,2026-07-23T18:31:51.924316
+,surname,surname,The surname of some person.,DatatypeProperty,,http://xmlns.com/foaf/0.1/surname,2026-07-23T18:31:51.924316
+,family_name,family_name,The family name of some person.,DatatypeProperty,,http://xmlns.com/foaf/0.1/family_name,2026-07-23T18:31:51.924316
+,familyName,familyName,The family name of some person.,DatatypeProperty,,http://xmlns.com/foaf/0.1/familyName,2026-07-23T18:31:51.924316
+,plan,plan,"A .plan comment, in the tradition of finger and '.plan' files.",DatatypeProperty,,http://xmlns.com/foaf/0.1/plan,2026-07-23T18:31:51.924316
+,myersBriggs,myersBriggs,A Myers Briggs (MBTI) personality classification.,DatatypeProperty,,http://xmlns.com/foaf/0.1/myersBriggs,2026-07-23T18:31:51.924316
+,accountName,accountName,Indicates the name (identifier) associated with this online account.,DatatypeProperty,,http://xmlns.com/foaf/0.1/accountName,2026-07-23T18:31:51.924316
+,birthday,birthday,"The birthday of this Agent, represented in mm-dd string form, eg. '12-31'.",DatatypeProperty,,http://xmlns.com/foaf/0.1/birthday,2026-07-23T18:31:51.924316
+,age,age,The age in years of some agent.,DatatypeProperty,,http://xmlns.com/foaf/0.1/age,2026-07-23T18:31:51.924316
+,status,status,A string expressing what the user is happy for the general public (normally) to know about their current activity.,DatatypeProperty,,http://xmlns.com/foaf/0.1/status,2026-07-23T18:31:51.924316
+,givenname,givenname,,DatatypeProperty,,http://xmlns.com/foaf/0.1/givenname,2026-07-23T18:31:51.924316

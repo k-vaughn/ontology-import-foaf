@@ -2,22 +2,85 @@ site_name: The Friend of a Friend (FOAF) Ontology
 site_description: The FOAF ontology converted into a website
 repo_url: https://github.com/ISO-TC204/ontology-import-foaf
 nav:
-- Home: index.md
-- FOAF Pattern:
-  - FOAF Pattern: FOAFPattern.md
-  - Agent: Agent.md
-  - Document: Document.md
-  - Group: Group.md
-  - Image: Image.md
-  - Label Property: LabelProperty.md
-  - Online Account: OnlineAccount.md
-  - Online Chat Account: OnlineChatAccount.md
-  - Online Ecommerce Account: OnlineEcommerceAccount.md
-  - Online Gaming Account: OnlineGamingAccount.md
-  - Organization: Organization.md
-  - Person: Person.md
-  - Personal Profile Document: PersonalProfileDocument.md
-  - Project: Project.md
+- TC204 on ISO.org: https://www.iso.org/committee/54706.html
+- TC 204 Home: https://isotc204.org/
+- RITSO Home: https://isotc204.org/ritso/
+- The Friend of a Friend (FOAF) Ontology:
+  - Home: index.md
+  - Classes:
+    - Agent: classes/Agent.md
+    - Document: classes/Document.md
+    - Group: classes/Group.md
+    - Image: classes/Image.md
+    - Label Property: classes/LabelProperty.md
+    - Online Account: classes/OnlineAccount.md
+    - Online Chat Account: classes/OnlineChatAccount.md
+    - Online Ecommerce Account: classes/OnlineEcommerceAccount.md
+    - Online Gaming Account: classes/OnlineGamingAccount.md
+    - Organization: classes/Organization.md
+    - Person: classes/Person.md
+    - Personal Profile Document: classes/PersonalProfileDocument.md
+    - Project: classes/Project.md
+  - Properties:
+    - account: properties/account.md
+    - accountName: properties/accountName.md
+    - accountServiceHomepage: properties/accountServiceHomepage.md
+    - age: properties/age.md
+    - aimChatID: properties/aimChatID.md
+    - based_near: properties/based_near.md
+    - birthday: properties/birthday.md
+    - currentProject: properties/currentProject.md
+    - depiction: properties/depiction.md
+    - depicts: properties/depicts.md
+    - dnaChecksum: properties/dnaChecksum.md
+    - family_name: properties/family_name.md
+    - familyName: properties/familyName.md
+    - firstName: properties/firstName.md
+    - focus: properties/focus.md
+    - fundedBy: properties/fundedBy.md
+    - geekcode: properties/geekcode.md
+    - gender: properties/gender.md
+    - givenName: properties/givenName.md
+    - holdsAccount: properties/holdsAccount.md
+    - homepage: properties/homepage.md
+    - icqChatID: properties/icqChatID.md
+    - img: properties/img.md
+    - interest: properties/interest.md
+    - jabberID: properties/jabberID.md
+    - knows: properties/knows.md
+    - lastName: properties/lastName.md
+    - logo: properties/logo.md
+    - made: properties/made.md
+    - maker: properties/maker.md
+    - mbox: properties/mbox.md
+    - mbox_sha1sum: properties/mbox_sha1sum.md
+    - member: properties/member.md
+    - msnChatID: properties/msnChatID.md
+    - myersBriggs: properties/myersBriggs.md
+    - name: properties/name.md
+    - nick: properties/nick.md
+    - openid: properties/openid.md
+    - page: properties/page.md
+    - pastProject: properties/pastProject.md
+    - phone: properties/phone.md
+    - plan: properties/plan.md
+    - primaryTopic: properties/primaryTopic.md
+    - publications: properties/publications.md
+    - schoolHomepage: properties/schoolHomepage.md
+    - sha1: properties/sha1.md
+    - skypeID: properties/skypeID.md
+    - status: properties/status.md
+    - surname: properties/surname.md
+    - theme: properties/theme.md
+    - thumbnail: properties/thumbnail.md
+    - tipjar: properties/tipjar.md
+    - title: properties/title.md
+    - topic: properties/topic.md
+    - topic_interest: properties/topic_interest.md
+    - weblog: properties/weblog.md
+    - workInfoHomepage: properties/workInfoHomepage.md
+    - workplaceHomepage: properties/workplaceHomepage.md
+    - yahooChatID: properties/yahooChatID.md
 site_url: https://isotc204.org/ontology-import-foaf/
 copyright: <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
   <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank"
@@ -33,6 +96,8 @@ theme:
   - content.tooltips
   - icons
   - navigation.path
+  - navigation.tabs
+  - navigation.tabs.sticky
   - navigation.top
   icon:
     repo: fontawesome/brands/github
